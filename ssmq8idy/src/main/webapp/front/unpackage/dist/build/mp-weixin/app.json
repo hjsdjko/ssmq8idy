@@ -1,0 +1,74 @@
+{
+  "pages": [
+    "pages/login/login",
+    "pages/register/register",
+    "pages/forget/forget",
+    "pages/center/center",
+    "pages/user-info/user-info",
+    "pages/news-detail/news-detail",
+    "pages/yonghu/list",
+    "pages/yonghu/add-or-update",
+    "pages/yonghu/detail",
+    "pages/yiyuan/list",
+    "pages/yiyuan/add-or-update",
+    "pages/yiyuan/detail",
+    "pages/fangyicuoshi/list",
+    "pages/fangyicuoshi/add-or-update",
+    "pages/fangyicuoshi/detail",
+    "pages/yimiaoxinxi/list",
+    "pages/yimiaoxinxi/add-or-update",
+    "pages/yimiaoxinxi/detail",
+    "pages/hesuanjiance/list",
+    "pages/hesuanjiance/add-or-update",
+    "pages/hesuanjiance/detail",
+    "pages/yimiaoyuyue/list",
+    "pages/yimiaoyuyue/add-or-update",
+    "pages/yimiaoyuyue/detail",
+    "pages/hesuanyuyue/list",
+    "pages/hesuanyuyue/add-or-update",
+    "pages/hesuanyuyue/detail",
+    "pages/jiezhongxinxi/list",
+    "pages/jiezhongxinxi/add-or-update",
+    "pages/jiezhongxinxi/detail",
+    "pages/jiancejieguo/list",
+    "pages/jiancejieguo/add-or-update",
+    "pages/jiancejieguo/detail",
+    "pages/news/list",
+    "pages/news/add-or-update",
+    "pages/news/detail",
+    "pages/pay-confirm/pay-confirm",
+    "pages/index/index"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "新冠肺炎服务预约微信小程序",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#BBBBBB",
+    "selectedColor": "#F2BC85",
+    "borderStyle": "white",
+    "backgroundColor": "#FFFFFF",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/tabs/index.png",
+        "selectedIconPath": "static/tabs/index1.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/center/center",
+        "iconPath": "static/tabs/mine.png",
+        "selectedIconPath": "static/tabs/mine1.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "usingComponents": {
+    "uni-load-more": "/components/mescroll-uni/mescroll-uni",
+    "mescroll-uni": "/components/mescroll-uni/mescroll-uni",
+    "uni-popup": "/components/uni-popup/uni-popup"
+  }
+}
